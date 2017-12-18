@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="dougherty.metricconverter.FahrenheitActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:id="@+id/fahrenheitTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fahrenheit_label"
+            style="@style/TextView.Label"/>
+
+        <EditText
+            android:id="@+id/fahrenheitET"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:ems="6"
+            android:inputType="numberDecimal"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="35dp">
+
+        <TextView
+            android:id="@+id/celsiusTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/celsius_label"
+            style="@style/TextView.Label"/>
+
+        <TextView
+            android:id="@+id/celsius"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:text="@string/celsius"
+            style="@style/TextView"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp">
+
+        <Button
+            android:id="@+id/celsiusButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/convert_to_celsius"
+            android:onClick="calculateAndDisplay"
+            style="@style/Button"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+
+        <Button
+            android:id="@+id/resetButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/reset"
+            android:onClick="onReset"
+            style="@style/Button"/>
+    </LinearLayout>
+
+</LinearLayout>

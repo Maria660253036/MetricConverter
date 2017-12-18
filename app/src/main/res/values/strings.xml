@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Metric Converter</string>
+
+    <string name="first_tv">Welcome to Metric Converter</string>
+    <string name="second_tv">Click on a button to start converting!</string>
+
+    <string name="fahrenheit_to_celsius">Fahrenheit to Celsius</string>
+    <string name="inches_to_centimeters">Inches to Centimeters</string>
+    <string name="miles_to_kilometers">Miles to Kilometers</string>
+    <string name="pounds_to_kilograms">Pounds to Kilograms</string>
+
+    <string name="fahrenheit_label">Fahrenheit</string>
+    <string name="celsius_label">Celsius:</string>
+    <string name="celsius">00C</string>
+    <string name="convert_to_celsius">Convert to Celsius!</string>
+
+    <string name="inches_label">Inches:</string>
+    <string name="centimeters_label">Centimeters:</string>
+    <string name="centimeters">00cm</string>
+    <string name="convert_to_centimeters">Convert to Centimeters!</string>
+
+    <string name="miles_label">Miles:</string>
+    <string name="kilometers_label">Kilometers:</string>
+    <string name="kilometers">00km</string>
+    <string name="convert_to_kilometers">Convert to Kilometers!</string>
+
+    <string name="pounds_label">Pounds:</string>
+    <string name="kilograms_label">Kilograms:</string>
+    <string name="kilograms">00kg</string>
+    <string name="convert_to_kilograms">Convert to Kilograms!</string>
+    <string name="reset">Reset</string>
+
+</resources>

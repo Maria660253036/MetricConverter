@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="dougherty.metricconverter.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/firstTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/first_tv"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_red_light"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/secondTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:text="@string/second_tv"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_red_light"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+        <Button
+            android:id="@+id/fahrenheitConverter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="45dp"
+            android:text="@string/fahrenheit_to_celsius"
+            style="@style/Button"/>
+
+        <Button
+            android:id="@+id/inchesConverter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/inches_to_centimeters"
+            style="@style/Button"/>
+
+        <Button
+            android:id="@+id/milesConverter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/miles_to_kilometers"
+            style="@style/Button"/>
+
+        <Button
+            android:id="@+id/poundsConverter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/pounds_to_kilograms"
+            style="@style/Button"/>
+
+    </LinearLayout>
+
+</ScrollView>
